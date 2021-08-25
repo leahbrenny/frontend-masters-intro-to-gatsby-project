@@ -32,8 +32,8 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200,
-            }
-          }
+            },
+          },
         ],
         defaultLayouts: {
           posts: require.resolve('./src/components/post-layout.js'),
@@ -56,7 +56,7 @@ module.exports = {
       options: {
         projectId: 'vnkupgyb',
         dataset: 'production',
-      }
-    }
+      },
+    },
   ],
 };

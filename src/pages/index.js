@@ -64,7 +64,8 @@ export default function IndexPage() {
         ))}
       </ul>
 
-      <h2>Latest Episodes of <em>Learn With Jason</em>
+      <h2>
+        Latest Episodes of <em>Learn With Jason</em>
       </h2>
       <ul>
         {episodes.map((episode) => (
